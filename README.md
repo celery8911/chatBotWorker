@@ -148,5 +148,5 @@ chatBotWorker/
 ## 相关链接
 
 - [Cloudflare Workers 文档](https://developers.cloudflare.com/workers/)
-- [Hono 文档](https://hono.dev/)
+- [GraphQL Yoga 文档](https://the-guild.dev/graphql/yoga-server)
 - [OpenAI API 文档](https://platform.openai.com/docs/api-reference)
