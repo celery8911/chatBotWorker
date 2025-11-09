@@ -53,10 +53,10 @@ const schema = createSchema({
               'Authorization': `Bearer ${context.env.OPENAI_API_KEY}`,
             },
             body: JSON.stringify({
-              model: 'gpt-4o-mini',  // 或者使用 gpt-4o、gpt-3.5-turbo 等
+              model: 'gpt-5-nano',  // 使用 gpt-5-nano 模型
               messages: messages,
               stream: false,  // 非流式
-              temperature: 0.7,
+              temperature: 1,  // gpt-5-nano 只支持 temperature: 1
             }),
           })
 
